@@ -1,0 +1,36 @@
+{
+  "name": "ai-deployment-scaffold",
+  "description": "Production deployment infrastructure for AI workloads with Kubernetes",
+  "tech": [
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "Helm",
+    "ArgoCD"
+  ],
+  "categories": [
+    "ai-ml",
+    "devops"
+  ],
+  "usecases": [
+    "ai-ml",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "complexity": "advanced",
+  "features": [
+    "kubernetes",
+    "terraform",
+    "ci-cd",
+    "auto-scaling",
+    "monitoring"
+  ],
+  "hasDemo": false,
+  "hasCLI": true,
+  "securityFeatures": [
+    "network-policies",
+    "rbac",
+    "secrets-management"
+  ],
+  "lastUpdated": "2025-01-03"
+}
