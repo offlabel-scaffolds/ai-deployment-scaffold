@@ -2,15 +2,15 @@
 
 Production deployment infrastructure for AI workloads with Kubernetes
 
-## 🎯 Features
+## Included
 
-- ✅ Kubernetes
-- ✅ Terraform
-- ✅ Ci Cd
-- ✅ Auto Scaling
-- ✅ Monitoring
+- Kubernetes
+- Terraform
+- Ci Cd
+- Auto Scaling
+- Monitoring
 
-## 🚀 Quick Start
+## Getting Started
 
 ```bash
 # Clone the repository
@@ -33,7 +33,7 @@ pytest
 docker build -t ${scaffold.name} .
 ```
 
-## 📦 Tech Stack
+## Under the Hood
 
 - Kubernetes
 - Docker
@@ -41,31 +41,31 @@ docker build -t ${scaffold.name} .
 - Helm
 - ArgoCD
 
-## 🏗️ Architecture
+## ️ Architecture
 
 ```
 ai-deployment-scaffold/
-├── src/                    # Source code
-│   ├── core/              # Core functionality
-│   ├── utils/             # Utilities
-│   └── config/            # Configuration
-├── tests/                  # Test files
-│   ├── unit/              # Unit tests
-│   └── integration/       # Integration tests
-├── docs/                   # Documentation
-├── .github/workflows/      # CI/CD pipelines
+├── src/ # Source code
+│ ├── core/ # Core functionality
+│ ├── utils/ # Utilities
+│ └── config/ # Configuration
+├── tests/ # Test files
+│ ├── unit/ # Unit tests
+│ └── integration/ # Integration tests
+├── docs/ # Documentation
+├── .github/workflows/ # CI/CD pipelines
 ├── Dockerfile
 ├── docker-compose.yml
 └── README.md
 ```
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ Network Policies
-- ✅ Rbac
-- ✅ Secrets Management
+- Network Policies
+- Rbac
+- Secrets Management
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -78,7 +78,7 @@ pytest --cov
 pytest tests/unit
 ```
 
-## 📊 Monitoring & Observability
+## Monitoring & Observability
 
 - Structured logging
 - Metrics collection
@@ -86,7 +86,7 @@ pytest tests/unit
 - Performance monitoring
 
 
-## 🚢 Deployment
+## Deployment
 
 ### Docker
 ```bash
@@ -104,7 +104,7 @@ kubectl apply -f k8s/
 docker-compose up -d
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [Getting Started](./docs/getting-started.md)
 - [Configuration](./docs/configuration.md)
@@ -112,15 +112,15 @@ docker-compose up -d
 - [Deployment Guide](./docs/deployment.md)
 - [Security Best Practices](./docs/security.md)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
 
-## 📄 License
+## License
 
 MIT - Built by Augustus Rivers at Offlabel Design
 
-## 💬 Support
+## Support
 
 - **Email:** hello@offlabel.design
 - **GitHub:** https://github.com/offlabel-scaffolds/ai-deployment-scaffold
@@ -131,4 +131,4 @@ MIT - Built by Augustus Rivers at Offlabel Design
 **Maturity:** stable | **Complexity:** advanced | **Last Updated:** 2025-01-03
 
 
-**⚡ CLI Available:** `npx @offlabel/${scaffold.name}`
+** CLI Available:** `npx @offlabel/${scaffold.name}`
